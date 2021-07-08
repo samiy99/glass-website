@@ -19,8 +19,8 @@ main{
 }
 
 .container{
-  width: 60%;
-  min-height: 80vh;
+  width: 70%;
+  /* min-height: 70vh; */
   border-radius: 15px;
   background: linear-gradient(to right top, rgba(255,255,255,.8),rgba(255,255,255,.3));
   z-index: 4;
@@ -47,62 +47,68 @@ main{
 
 .dashbord{
   background: #fff;
-  padding: 0px 20px;
+  /* padding: 0px 20px;  */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
   border-radius: 15px;
-  padding: 10px;
+  /* padding: 10px; */
+  width: 35%;
 }
 .social{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+  /* align-items: center; */
+  justify-content: space-between;
 
 }
 .link{
   margin: 20px 0px;
   display: flex;
   align-items: center;
-  justify-content: center;
-
+  /* justify-content: space-between; */
+  
 }
+
 .link p{
   padding-left: 10px;
 }
 
 .join{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center;  
   background: linear-gradient(to right top, #65dfc9,#6cdbeb);
   border-radius: 7px;
-  padding: 0px 5px;
+  position: relative;
+  padding: 20px 7px;
+  width: 80%;
 }
 
 .join img{
-  width: 80px;
+  width: 40%;
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+}
+
+.join p{
+  width: 30%;
 }
 
 .games{
   display: flex;
   flex-direction: column;
   margin-left: 50px;
-  padding: 20px 0px;
+  padding: 20px;
+  flex: 1;
 }
 
-.game-card{
-  width: 100%;
-  display: flex;
-  margin: 50px 0px;
-  justify-content: space-between;
-}
+
 
 .active{
-  font-size: large;
+  font-size: x-large;
 
 }
 
@@ -113,5 +119,13 @@ main{
   border-radius: 7px;
   height: 20px;
 }
-
+.game-card{
+  width: 100%;
+  display: flex;
+  margin: 20px 0px;
+  justify-content: space-between;
+  background: rgba(255,255,255,.9);
+  border-radius: 10px;
+  padding: 15px;
+}
 
